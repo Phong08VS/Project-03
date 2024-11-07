@@ -453,3 +453,49 @@ a {
     margin-top: 38px;
     justify-content: center;
 }
+
+/* =================== header =================== */
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+    border-radius: 4px;
+    background: #2E80CE;
+    height: 427px;
+    position: relative;
+    margin: 180px 0px 85px;
+}
+
+.install__img {
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading {
+    max-width: 489px;
+    color: #fff;
+}
+
+.install__desc {
+    margin-top: 18px;
+    max-width: 586px;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+    align-items: center;
+}
