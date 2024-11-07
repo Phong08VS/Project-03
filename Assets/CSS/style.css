@@ -36,7 +36,6 @@ a {
     text-align: center;
     font-size: 1.8rem;
     font-style: normal;
-    line-height: 1.67;
 }
 
 .btn:hover {
@@ -60,7 +59,7 @@ a {
     display: flex;
 }
 
-.header__action--LogIn,
+.header__action--login,
 .navbar__link {
     padding: 8px 21px;
     color: #C9D2DA;
@@ -88,12 +87,82 @@ a {
     background: #fff;
 }
 
-.header__action--SignUp {
+.header__action--signup {
     min-width: 144px;
     line-height: 44px;
     font-size: 1.6rem;
 }
 
-.header__action--LogIn {
+.header__action--login {
     margin-right: 7px;
+}
+
+/* =================== header-hero =================== */
+.hero {
+    display: flex;
+    align-items: center;
+    padding-top: 76px;
+}
+
+.hero__content {
+    width: 44%;
+}
+
+.hero__media {
+    flex: 1;
+}
+
+.hero__heading {
+    color: #FFF;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.14;
+    letter-spacing: -1.4px;
+}
+
+.hero__desc {
+    margin-top: 22px;
+    color: #C9D2DA;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.hero__row {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    column-gap: 38px;
+}
+
+.hero__phone {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-style: normal;
+    line-height: 1.67;
+}
+
+.hero__images {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero__img {
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.hero__img--large {
+    width: 330px;
+    height: 540px;
+    margin-right: -6px;
+    z-index: 1;
+}
+
+.hero__img--small {
+    width: 210px;
+    height: 410px;
 }
